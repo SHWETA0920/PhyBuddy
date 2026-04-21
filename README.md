@@ -1,7 +1,7 @@
-# ⚛️ PhysicsBot — B.Tech Physics Study Buddy
+# ⚛️ PhyBuddy — B.Tech Physics Study Buddy
 
 > An Agentic AI-powered 24/7 Physics assistant built with LangGraph, ChromaDB, SentenceTransformers, and Groq.  
-> **Capstone Project | Agentic AI Hands-On Course 2026 | Dr. Kanthi Kiran Sirra**
+
 
 ---
 
@@ -719,28 +719,6 @@ with open("capstone_streamlit.py", "w", encoding="utf-8") as f:
 | 🟢 Low | **Multilingual support** | Detect Telugu/Hindi, translate to English before retrieval, translate answer back |
 | 🟢 Low | **HF Token caching** | Add `HF_TOKEN` to `.env` for faster, authenticated model downloads |
 | 🟢 Low | **Streaming responses** | Use `app.astream()` with `st.write_stream()` for character-by-character answer display |
-
----
-
-## 📄 Submission Checklist
-
-- [x] `day13_capstone.ipynb` — all TODO sections replaced, runs clean with Kernel → Restart & Run All
-- [x] `capstone_streamlit.py` — launches with `streamlit run`, memory works across turns
-- [x] `agent.py` — production module with all 8 nodes, correct model name
-- [x] `tests/test_agent.py` — 15+ tests, all pass
-- [x] `README.md` — this file
-- [x] `PhysicsBot_Capstone_Documentation.pdf` — 5-page project report
-
----
-
-## 👨‍🏫 Course Information
-
-| Field | Detail |
-|---|---|
-| Course | Agentic AI Hands-On Course 2026 |
-| Instructor | Dr. Kanthi Kiran Sirra |
-| Domain | Physics Study Buddy |
-| Contact | support@physicstudy.edu |
 
 ---
 
