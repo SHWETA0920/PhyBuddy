@@ -284,8 +284,7 @@ capstone_project/
 ├── .env                      ← API keys (not committed to git)
 ├── README.md                 ← This file
 │
-└── tests/
-    └── test_agent.py         ← pytest unit + integration tests (15+ cases)
+└── Test_agent.py             ← pytest unit + integration tests (15+ cases)
 ```
 
 ### What each file does
